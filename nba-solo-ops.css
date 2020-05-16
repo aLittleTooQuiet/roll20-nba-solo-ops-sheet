@@ -1,0 +1,168 @@
+.sheet-wrapper {
+    border: 5px solid #000;
+    font-size: 9pt;
+}
+
+.sheet-wrapper h3 {
+    background: #666;
+    color: #fff;
+    border-bottom: 5px solid #000;
+    padding: 0 5px;
+}
+
+.sheet-header {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sheet-header .sheet-personal {
+    width: 50%;
+    box-sizing: border-box;
+    padding-right: 5px;
+}
+
+.sheet-header .sheet-trackers {
+    width: 50%;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+.sheet-header .sheet-tracker .sheet-selection {
+    display: flex;
+    flex-direction: row;
+}
+
+.sheet-header .sheet-tracker label {
+    width: 15%;
+    border: 1px solid black;
+    height: 35px;
+    line-height: 35px;
+    font-size: 18pt;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.sheet-header .sheet-tracker input {
+    position: absolute;
+    display: none;
+}
+
+.sheet-header .sheet-tracker input:checked {
+    display: block;
+}
+
+.sheet-header .sheet-namefield {
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.sheet-namefield label {
+    float: left;
+    width: auto;
+    line-height: 2em;
+}
+
+.sheet-namefield input {
+    float: left;
+    width: 350px;
+}
+
+.sheet-contacts {
+    clear: both;
+}
+
+.sheet-contacts label {
+    margin-bottom: 2px;
+    padding-bottom: 0;
+}
+
+.sheet-contacts textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sheet-abilities {
+    display: flex;
+    flex-direction: row;
+}
+
+.sheet-abilities .sheet-investigative {
+    width: 75%;
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+
+.sheet-abilities .sheet-investigative .sheet-skills {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+}
+
+.sheet-abilities .sheet-investigative .sheet-column {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.sheet-abilities .sheet-investigative .sheet-skill {
+    display: block;
+    box-sizing: border-box;
+    padding: 0 5px;
+    line-height: 30px;
+}
+
+.sheet-abilities .sheet-alt {
+    background: #dedede;
+}
+
+.sheet-abilities .sheet-investigative .sheet-skill label {
+    display: inline;
+}
+
+.sheet-abilities .sheet-investigative .sheet-skill input {
+    display: inline;
+    margin-right: 5px;
+}
+
+.sheet-abilities .sheet-general {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+
+.sheet-abilities .sheet-general .sheet-skill {
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sheet-abilities .sheet-general .sheet-skill label {
+    width: auto;
+    float: left;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+.sheet-abilities .sheet-general .sheet-skill button {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    text-align: left;
+    font-size: 10pt;
+    padding: 0 3px;
+}
+
+.sheet-footer {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.sheet-footer textarea {
+    box-sizing: border-box;
+}
